@@ -16,6 +16,10 @@ export default function Home() {
           priority
         />
         <ol>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+          quaerat architecto corporis asperiores dignissimos dolorum recusandae
+          nobis, fugiat dolores rerum quam illum ullam quibusdam magni
+          excepturi, assumenda necessitatibus eum! Molestias.
           <li>
             Get started by editing <code>src/app/page.tsx</code>.
           </li>
