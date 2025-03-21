@@ -1,10 +1,10 @@
 export const runtime = "edge";
 
 import Image from "next/image";
-import styles from "./page.module.css";
+import styles from "../page.module.css";
 import Link from "next/link";
 
-export default function Home() {
+export default function About() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
@@ -16,10 +16,10 @@ export default function Home() {
           height={38}
           priority
         />
-        <h1>Home Page</h1>
+        <h1>About</h1>
 
         <div className={styles.ctas}>
-          <Link href="/about">Got To About Page</Link>
+          <Link href="/">Got To Home Page</Link>
         </div>
       </main>
     </div>
